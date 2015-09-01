@@ -33,6 +33,75 @@
 	display: table;
     float: right;
 }
+.banner-text_grid .form-group{
+	margin-bottom: 10px
+}
+	.banner-text_grid input[type="submit"],.banner-text_grid input[type="text"],.banner-text_grid input[type="password"],.banner-text_grid select{
+		background-color: rgba(32, 172, 185, 0.69);;
+		border: solid 1px #5AD7E2;
+		color: #fff;
+		font-size: 14px;
+	}
+	.banner-text_grid input[type="text"],.banner-text_grid input[type="password"],.banner-text_grid select{
+		width: 100%;
+		outline: none;
+		padding: 1px 10px;
+	}
+	.banner-text_grid input[type="submit"]{
+		padding: 4px 12px 
+	}
+	.banner-text_grid input[type="text"]:focus,.banner-text_grid input[type="password"]:focus,.banner-text_grid select:focus{
+		border-color: #73E5EF;
+	}
+	.banner-text_grid input[type="submit"]:hover{
+		background-color: #4D99A0;
+		border-color: #73E5EF;
+	}
+	.banner-text_grid form{
+		padding-top: 15px
+	}
+.make-appoinment .banner-text_grid div:last-child{
+	    background-color: rgba(56, 140, 146, 0.69);
+    margin-bottom: -15px;
+    padding: 15px;
+}
+	.make-appoinment .banner-text_grid div:last-child i{
+		color: #fff;
+		font-size: 30px;
+	}
+	.make-appoinment .banner-text_grid>div{
+		max-height: 101px;
+		height: 101px;
+	}
+	.news{
+		max-height: 217px;
+		height: 217px;
+	}
+	.news .rssclass{
+		text-align: left;
+		margin-top: 5px
+	}
+	.news .rssclass .rsstitle a{
+		color: #007580;
+		font-weight: bold;
+	}
+	.news .rssclass .rssdate{
+		color: #A2DFE4;
+		font-size: 12px;
+	}
+	.news .rssclass .rssdescription{
+		color: #C8F8FC;
+		font-size: 14px;
+	}
+	.make-appoinment .banner-text_grid input[type="submit"]{
+		float: right;
+		margin-top: 23px;
+		margin-right: 20px
+	}
+	.make-appoinment .banner-text_grid h4 span{
+		margin-left: 120px
+	}
+
 
 
 .one-edge-shadow {
@@ -241,10 +310,8 @@ h1.b1,h2.b2,h3.b3{
   padding: 15px;
 }
 .banner-text_grid img {
-  margin: 0 auto;
-  border-radius: 73px;
-  border: 6px solid #eee;
-  padding: 1em 1em;
+	position: absolute;
+	margin-top: -67px;
 }
 .banner-sec{
 	position:relative;
